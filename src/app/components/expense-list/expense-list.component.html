@@ -1,0 +1,7 @@
+<h2>Expense List</h2>
+<ul>
+  <li *ngFor="let expense of expenses" [ngClass]="{'high-expense': expense.amount > 1000}">
+    {{ expense.title }} - {{ expense.amount | currency }} ({{ expense.category }})
+    
+  </li>
+</ul>

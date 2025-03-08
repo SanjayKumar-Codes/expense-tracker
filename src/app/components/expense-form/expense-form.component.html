@@ -1,0 +1,9 @@
+<h2>Add Expense</h2>
+<form (submit)="addExpense()">
+  <input type="text" [(ngModel)]="title" placeholder="Expense Title" required />
+  <input type="number" [(ngModel)]="amount" placeholder="Amount" required />
+  <select [(ngModel)]="category">
+    <option *ngFor="let cat of categories">{{ cat }}</option>
+  </select>
+  <button type="submit">Add Expense</button>
+</form>

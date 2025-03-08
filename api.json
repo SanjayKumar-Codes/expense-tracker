@@ -1,0 +1,26 @@
+{
+    "expenses": [
+      {
+        "id": 1,
+        "title": "Groceries",
+        "amount": 50.75,
+        "category": "Food",
+        "date": "2025-03-06"
+      },
+      {
+        "id": 2,
+        "title": "Bus Ticket",
+        "amount": 2.50,
+        "category": "Transport",
+        "date": "2025-03-05"
+      },
+      {
+        "id": 3,
+        "title": "Netflix Subscription",
+        "amount": 15.99,
+        "category": "Entertainment",
+        "date": "2025-03-04"
+      }
+    ]
+  }
+  
